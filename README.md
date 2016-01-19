@@ -7,13 +7,13 @@ PHP 花 framework
 # root($args) = get basename
 
  - parameter -
+ - 
 $args->path / string
 
 
 # put_file($args) = put file
 
  - parameter -
- 
 
 $args->target / string, array
 
