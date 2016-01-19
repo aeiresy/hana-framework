@@ -1,16 +1,16 @@
 PHP 花 framework
 
 
-# File
+## File
 
 
-root($args) = get basename
+# root($args) = get basename
 
  - parameter -
 $args->path / string
 
 
-put_file($args) = put file
+# put_file($args) = put file
 
  - parameter -
  
@@ -26,7 +26,7 @@ $args->append / boolean
 $args->sort / boolean
 
 
-mv_file($args) = move/rename file
+# mv_file($args) = move/rename file
 
  - parameter -
  
@@ -35,7 +35,7 @@ $args->from / string, array
 $args->to / string, array
 
 
-copy_file($args) = copy file
+# copy_file($args) = copy file
 
  - parameter -
  
@@ -44,21 +44,21 @@ $args->from / string, array
 $args->to / string, array
 
 
-rm_file($args) = remove file
+# rm_file($args) = remove file
 
  - parameter -
  
 $args->path / string, array
 
 
-rm_dir($args) = remove directory
+# rm_dir($args) = remove directory
 
  - parameter -
  
 $args->path / string, array
 
 
-mk_dir($args) = make directory
+# mk_dir($args) = make directory
 
  - parameter -
  
